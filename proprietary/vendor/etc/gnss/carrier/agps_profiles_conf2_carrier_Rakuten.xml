@@ -28,9 +28,7 @@
     ca_enable="true"
     qop_delay="5"
     force_otdoa_assist_req="true"
-    pref_method="2"
-    operation_mode="2"
-    privacy_override_mode="4"
+    aosp_pos_mode_enable="true"
   />
 
 </mtk_agps_profiles>
