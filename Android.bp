@@ -12,9 +12,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/priv-app/ImsService/ImsService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 }
 
@@ -23,9 +20,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
 }
@@ -35,9 +29,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
